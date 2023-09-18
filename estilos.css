@@ -1,0 +1,83 @@
+body{
+    /*los comentarios se ponen de esta forma*/
+    /*la página para elegir colores es https://mybrandnewlogo.com/es/generador-de-paleta-de-colores*/
+    background-color: #a3aae9;
+
+    /*Para cambiar el color del texto*/
+    color:#1c1f2e;
+
+    /*Para cambiar el estilo de la fuente*/
+
+    /*Primera opción*/
+   /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;*/
+
+    /*Segunda opción, más moderna, esta es la página: https://fonts.google.com/*/
+    font-family: 'Roboto', sans-serif;
+}
+
+
+    h1, p {
+        color:blue; /*para los colores: https://mybrandnewlogo.com/es/generador-de-paleta-de-colores */
+    }
+
+/*Estilos de imágenes*/
+.img1{
+    /*ajustar el tamaño. Ancho: width. Altura: height*/
+    width: 300px;
+    height: 250px;
+    /*Borde de la imagen */
+    border-style: groove;
+    border-width: 10px;
+    border-color: rgba(216, 49, 245, 0.939);
+}
+
+.img2{
+    width: 300px;
+    height: 250px;
+    border-style: solid;
+    border-color: rgba(216, 49, 245, 0.939);
+    border-width: 10px;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+}
+
+.img3{
+ width: 300px;
+ height: 250px;
+ border-style: double;
+ border-color: rgba(216, 49, 245, 0.939);
+ border-width: 10px;
+ padding-top: 50px;
+ margin-top: 50px;
+}
+
+.img4{
+    width: 300px;
+    height: 250px;
+    border-style: dotted;
+    border-width: 10px;
+    border-color: rgba(216, 49, 245, 0.939);
+    padding-right: 50px;
+    margin-right: 50px;
+}
+
+.img5{
+    width: 300px;
+    height: 250px;
+    border-style: dashed;
+    border-width: 10px;
+    border-color: rgba(216, 49, 245, 0.939);
+    padding-left: 50px;
+    margin-left: 50px;
+}
+
+.img6{
+    width: 300px;
+    height: 250px;
+    border-style: outset;
+    border-width: 10px;
+    border-color: rgba(216, 49, 245, 0.939);
+    padding: 30px; /*Es el espacio entre la imagen (contenido) y el margen*/
+    margin: 30px; /*Espacio entre el margen hacia afuera*/
+}
+
